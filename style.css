@@ -1,12 +1,12 @@
 * {
   margin: 0 auto;
   padding: 0;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
 }
 
 body {
   background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .content-section {
@@ -122,4 +122,27 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   padding: 24px 0;
+}
+
+.content-section__subtitle {
+  font-size: 28px;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 500;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  padding: 32px 0;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-position: inside;
+}
+
+.solid {
+  font-family: "Inter";
+  font-weight: 700;
 }
